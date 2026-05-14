@@ -1,7 +1,8 @@
 /* type selector */
 main {
     display: flex
-    flex-direction: table-row;
+    flex-direction: table-column;
+    justify-content: space-evenly;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 20px;
@@ -9,7 +10,9 @@ main {
 }
 div {
     margin: 40px;
-    border: 2px solid black;
+    border-color:  black;
+    border-size: 2px;
+    border-style: solid;
     border-radius: 20px;
     padding: 15px;
 }
