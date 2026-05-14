@@ -28,9 +28,6 @@ body {
     font-size: 1.5rem;
      border-width:2px;
     border-style:solid;
-    border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill round;
-    font-family: 'Director';
-    src: url('https://humantooth.neocities.org/fonts/Director-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
