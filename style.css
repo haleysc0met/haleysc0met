@@ -28,13 +28,9 @@ body {
 
 /* CLASS SELECTORS */
 /* class for my reading responses */
-.responses { 
-    border-width: 80%;
-border-radius: 30px;
-border-style : solid
-}
 
-.item1 {
+
+.responses {
     background-color: #060607;
     color: #4e6b62;
     font-size: 1.5rem;
@@ -42,38 +38,6 @@ border-style : solid
     border-style:solid;
     border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill round;
     
-}
-.item2 {
-    background-color: #060607;
-    color: #4e6b62;
-    font-size: 1.5rem;
-     border-width:2px;
-    border-style:solid;
-    border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill round;
-}
-.item3 {
-   background-color: #060607;
-    color: #4e6b62;
-    font-size: 1.5rem;
-     border-width:2px;
-    border-style:solid;
-    border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill round;
-}
-.item4 {
-   background-color: #060607;
-    color: #4e6b62;
-    font-size: 1.5rem;
-     border-width:2px;
-    border-style:solid;
-    border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill round;
-}
-.item5 {
-    background-color: #060607;
-    color: #4e6b62;
-    font-size: 1.5rem;
-     border-width:2px;
-    border-style:solid;
-    border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill round;
 }
 .container {
     display: flex;
@@ -88,9 +52,19 @@ border-style : solid
     padding: 5px;
     border-image: url("https://dl.dropbox.com/scl/fi/6wo0voidugxmgg0a81v20/lace-border-png-37013.png?rlkey=3hn4k762e8y0v6d2v6mwrtcbr&st=5o8bpex4") 9 fill round;        
 }
+.text {
+    font-family: 'Director';
+    font-size: 1.5rem;
+    color: #4e6b62;
+          overflow-y:auto;
+          box-sizing: border-box;
+          margin-bottom:10px;
+          border:3px solid #347e67;
+          background:#347e67;
+          border-radius:10px;
+          box-shadow: 0px 0px 10px #347e67, 0px 0px 10px #347e67, 0px 0px 10px #347e67, 0px 0px 10px #233131, 0px 0px 14px #233131; 
  @font-face }                
 font-family: 'Director';
 src: url(https://humantooth.neocities.org/fonts/Director-Regular.woff) format('woff');
 font-weight: normal;
 font-style: normal;
-} 
