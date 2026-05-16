@@ -79,6 +79,17 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+.assignment-links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
 /* text */
 @font-face {                  
 font-family: 'Afacad';
